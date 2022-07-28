@@ -8,5 +8,63 @@
     <artifactId>maven-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--    <name>${project.artifactId}</name>-->
+    <name>app-root</name>
+    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
+    <!--    <parent>-->
+    <!--        <groupId>org.springframework.boot</groupId>-->
+    <!--        <artifactId>spring-boot-starter-parent</artifactId>-->
+    <!--        <version>2.6.2</version>-->
+    <!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+    <!--    </parent>-->
+
+    <properties>
+        <!-- 标准        -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
+
+<!--        <spring.version>4.3.25.RELEASE</spring.version>-->
+<!--        <spring-boot.version>2.1.4.RELEASE</spring-boot.version>-->
+        <junit.version>4.12</junit.version>
+
+        <!-- 新加       -->
+        <java.version>1.8</java.version>
+
+    </properties>
+
+    <!--    <dependencies>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>io.micrometer</groupId>-->
+    <!--            <artifactId>micrometer-registry-prometheus</artifactId>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-web</artifactId>-->
+    <!--        </dependency>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.springframework.boot</groupId>-->
+    <!--            <artifactId>spring-boot-starter-test</artifactId>-->
+    <!--            <scope>test</scope>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
+
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
+
 
 </project>
