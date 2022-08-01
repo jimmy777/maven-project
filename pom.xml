@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>app-impala</module>
+        <module>app-mysql</module>
     </modules>
 
     <!--    <name>${project.artifactId}</name>-->
@@ -38,7 +39,20 @@
         <!-- 新加       -->
         <java.version>1.8</java.version>
 
+        <!-- mysql       -->
+        <mysql-connector.version>8.0.29</mysql-connector.version>
+
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>e
 
     <!--    <dependencies>-->
     <!--        <dependency>-->
